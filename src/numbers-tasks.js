@@ -676,7 +676,7 @@ function getCountOfOddNumbers(number) {
     }
   }
   return count;
-  // throw new Error('Not implemented');
+  // throw new Error('Not implemented';
 }
 
 module.exports = {
