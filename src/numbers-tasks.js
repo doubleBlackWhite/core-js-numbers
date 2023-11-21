@@ -522,10 +522,8 @@ function getIntegerOnString(str, base) {
  * 2 ** 53  => false
  */
 function isSafeInteger(number) {
-  if (Number.isSafeInteger(number)) {
-    return true;
-  }
-  return false;
+  return Number.isSafeInteger(number);
+
   // throw new Error('Not implemented');
 }
 
@@ -597,7 +595,7 @@ function getIntegerPartNumber(number) {
  * @param {number} x1
  * @param {number} x2
  * @param {number} x3
- * @returns {number}
+ * @returns {string}
  *
  * @example:
  * 1, 2, 3       => 6
