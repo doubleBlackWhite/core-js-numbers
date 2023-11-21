@@ -507,8 +507,7 @@ function getFloatOnString(str) {
  */
 function getIntegerOnString(str, base) {
   return Number.parseInt(str, base);
-
-
+  // throw new Error('Not implemented');
 }
 
 /**
